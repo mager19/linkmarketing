@@ -28,6 +28,7 @@
 
 body{
 	
+	background-color: #fff;
 	line-height:30px;
 	color:#4d4d4d;
 	background: #fff;
@@ -98,4 +99,34 @@ img{
 .contenedor{
 
 	padding: 4em 0em;
+}
+
+
+header{
+
+	padding: 2em 0;
+
+}
+
+/*logo*/
+
+.logo{
+
+	text-align: center;
+}
+
+/*sociales top*/
+
+.socialestop{
+
+	text-align: center;
+
+}
+
+.socialestop ul li{
+
+	display: inline-block;
+	list-style: none;
+	margin-right: 2em;
+	padding: 1em 0;
 }
