@@ -130,3 +130,26 @@ header{
 	margin-right: 2em;
 	padding: 1em 0;
 }
+
+
+/*nav*/
+
+nav{
+
+	background-color: #0679b9;
+	color: #fff;
+	text-align: center;
+}
+
+nav ul li{
+
+	display: inline-block;
+	list-style: none;
+	margin-right: 2em;
+	padding-top: 0.5em;
+}
+
+nav ul li a{
+
+	color: #fff;
+}
