@@ -241,3 +241,26 @@ nav ul li a:hover{
 	padding-top: 1.5em;
 	text-align: center;
 }
+
+
+/* item p */
+
+.itemp{
+
+	text-align: center;
+	padding: 0 2em;
+
+}
+
+.itemp h3{
+
+	color:#232323;
+	font-size: 1.5em;
+	padding-top: 5px;
+
+}
+
+.itempdown{
+
+	margin-top: 3em;
+}
