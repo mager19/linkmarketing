@@ -503,3 +503,11 @@ button {
 	
 
 }
+
+
+@media screen and (max-width: 480px) {
+.slideinfo h3 {
+    color: #fff;
+    font-size: 1.2em;
+
+    }
