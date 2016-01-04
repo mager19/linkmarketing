@@ -508,6 +508,12 @@ button {
 @media screen and (max-width: 480px) {
 .slideinfo h3 {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.2em;}
+
+.leftpre h3 {
+    
+    font-size: 2.5em;
+}
+
 
     }
