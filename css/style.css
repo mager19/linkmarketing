@@ -16,6 +16,8 @@
 
 /* Owl Carousel */
 @import url("../css/owl.carousel.css");
+
+@import url("../css/animate.css");
 /* Font Awesome */
 @import url("../css/font-awesome.min.css");
 /* Animate and more*/
@@ -103,10 +105,15 @@ img{
 
 
 header{
-
+	background-color: #fff;
 	padding: 2em 0;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
 
 }
+
+
 
 /*logo*/
 
@@ -138,7 +145,11 @@ nav{
 
 	background-color: #0679b9;
 	color: #fff;
+	position: fixed;
+	width: 100%;
 	text-align: center;
+	top:28%;
+	z-index: 999;
 }
 
 nav ul li{
@@ -182,17 +193,56 @@ nav ul li a:hover{
 .slideinfo h3{
 
 	color: #fff;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	line-height: 1.3em;
 	text-align: center;
 	padding: 0 1em;
 	
 }
 
+.button{
+	
+	margin-left: 35%;
+	margin-top: 2em;
+	width: 30%;
+}
+
+.button a{
+
+	background-color: #F8C957;	
+	border-radius: 3px;
+	color: #232323;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0.4em 1em;
+	text-align: center;
+}
+
 .ico{
 
 	margin-bottom: 2.5em;
 }
+
+.tarda{
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 2s;
+  -webkit-animation-iteration-count: 3s;
+
+  -o-animation-duration: 4s;
+  -o-animation-delay: 2s;
+  -o-animation-iteration-count: 3s;
+
+  -transition-animation-duration: 4s;
+  -transition-animation-delay: 2s;
+  -transition-animation-iteration-count: 3s;
+  
+  -webkit-transition: ;
+  -o-transition: ;
+  transition: ;
+}
+
+
+
 
 
 /* newsletter */
@@ -343,6 +393,11 @@ button{
 	width: 50%;
 }
 
+
+.iconskype{
+
+	padding-bottom: 2em;
+}
 
 
 /*  Preguntas */
