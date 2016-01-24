@@ -111,8 +111,23 @@ header{
 	width: 100%;
 	z-index: 999;
 
+
+	-webkit-transition: 0.2s linear all;
+	-o-transition: 0.2s linear all;
+	transition: 0.2s linear all;
+
 }
 
+
+header.small{
+
+	padding: 10px 0;
+}
+
+header.small img{
+
+	width: 10%;
+}
 
 
 /*logo*/
@@ -127,6 +142,10 @@ header{
 .socialestop{
 
 	text-align: center;
+
+	-webkit-transition: 1s linear all;
+	-o-transition: 1s linear all;
+	transition: 1s linear all;
 
 }
 
@@ -150,6 +169,15 @@ nav{
 	text-align: center;
 	top:28%;
 	z-index: 999;
+
+	/*-webkit-transition: 0.5s linear all;
+	-o-transition: 0.5s linear all;
+	transition: 0.5s linear all;*/
+}
+
+nav.small{
+
+	top:7.5%;
 }
 
 nav ul li{
@@ -186,8 +214,11 @@ nav ul li a:hover{
 
 .slide{
 
-	background-color: #232323;
-	padding: 6em 0;
+	/*background-color: #232323;*/
+	background-image: url("../img/slide.jpg");
+	background-repeat: no-repeat;
+	padding-top: 20%;
+
 }
 
 .slideinfo h3{
@@ -249,21 +280,21 @@ nav ul li a:hover{
 
 .newsletter{
 
-	background-color: #ebebeb;
+	background-color: #0679b9;
 	padding: 2em 0;
 }
 
 
 .newsletter h3{
 
-	color:#232323;
+	color:#fff;
 	font-size: 1.4em;
 	padding-top: 2px;
 }
 
 .newsletter input{
 
-	box-shadow: 3px 3px 1px #989898;
+	/*box-shadow: 3px 3px 1px #989898;*/
 	margin-top: 1.5em;	
 	padding: 0.3em 1em;
 	text-align: center;
@@ -287,7 +318,7 @@ nav ul li a:hover{
 
 .boletin h4{
 
-	color: #a6a6a6;
+	color: #fff;
 	font-size: 1.1em;
 	font-style: italic;
 	padding-top: 1.5em;
@@ -306,7 +337,7 @@ nav ul li a:hover{
 
 .itemp h3{
 
-	color:#232323;
+	color:#ef4222;
 	font-size: 1.5em;
 	padding-top: 5px;
 
@@ -322,7 +353,7 @@ nav ul li a:hover{
 /*  comuniquemosnos*/
 
 .comuniquemosnos{
-
+	
 	border: 2px solid #ccc;
 	border-radius: 5px;
 	
@@ -406,6 +437,7 @@ button{
 #pre{
 
 	background-image: url("../img/preguntas.jpg");
+	display: none;
 
 
 	
@@ -494,6 +526,30 @@ body > footer > div > div > div.col-md-12.logo > img{
 
 /* styles for desktop */
 .tinynav { display: none }
+
+
+
+/* Clic informativo */
+
+#clic{
+
+	background-color: #ef4222;
+	text-align: center;
+}
+
+#clic h3{
+
+	color:#fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#clic p{
+
+	color: #fff;
+	margin-left: 15%;
+	width: 70%;
+}
 
 
 

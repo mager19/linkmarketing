@@ -203,7 +203,24 @@
 </section>
 <!-- final principal -->
 
+<!-- Clic informativo -->
+<section class="contenedor" id="clic">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>Clic informativo</h3>
+				<p>Conoce mas sobre nuestro <span>Clic informativo</span> con información de interes general sobre marketing y posicionamiento en internet.</p>
+				<div class="button" >
+						<a href="#">Conozca mas</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
+<!-- End Clic informativo -->
+
+<!-- Pre -->
 <section class="contenedor" id="pre">
 	<div class="container">
 			<div class="row">
@@ -292,16 +309,29 @@
 	</div>
 </footer>
 
+
 </body>
 
 <script src="js/bootstrap.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script src="js/tinynav.min.js"></script>
 
-<script>
-  $(function () {
-    $("#nav").tinyNav();
-  });
+
+<script type="text/javascript">
+$(document).on("scroll",function(){
+    if($(document).scrollTop()>80){
+        $("header").addClass("small");
+	    $("nav").addClass("small");
+	        $(".socialestop").css("display", "none");
+	        $(".slide").css("padding-top","15%");
+    } else{
+        $("header").removeClass("small").addClass("large");
+        $("nav").removeClass("small").addClass("large");
+       		$(".socialestop").css("display", "block");
+       		$(".slide").css("padding-top","20%");
+    }
+});
 </script>
+
 
 </html>
