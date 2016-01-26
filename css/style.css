@@ -211,13 +211,19 @@ nav ul li a:hover{
 
 /* Slide */
 
+.item1{
+
+	background-image: url("../img/slide.jpg");
+}
+
+.item2{
+
+	background-image: url("../img/preguntas.jpg");
+}
 
 .slide{
 
-	/*background-color: #232323;*/
-	background-image: url("../img/slide.jpg");
-	background-repeat: no-repeat;
-	padding-top: 20%;
+	padding-top: 15%;
 
 }
 
@@ -227,7 +233,8 @@ nav ul li a:hover{
 	font-size: 1.5em;
 	line-height: 1.3em;
 	text-align: center;
-	padding: 0 1em;
+	padding: 0 3em;
+	margin-top: 1em;
 	
 }
 
@@ -251,25 +258,36 @@ nav ul li a:hover{
 
 .ico{
 
-	margin-bottom: 2.5em;
+	margin-bottom: 1em;
+	margin-top: 20px;
+	
+
+
+  -webkit-animation-delay: 0.5s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-delay: 0.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-duration: 4s;
+  -o-animation-delay: 0.5s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-duration: 4s;
 }
 
 .tarda{
+
+	margin-bottom: 1em;
+	margin-top: 20px;
+
+  -webkit-animation-delay: 1s;
   -webkit-animation-duration: 4s;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-iteration-count: 3s;
-
+  -webkit-animation-iteration-count: 3;
+  -moz-animation-delay: 1s;
+  -moz-animation-iteration-count: 3;
+  -moz-animation-duration: 4s;
+  -o-animation-delay: 1s;
+  -o-animation-iteration-count: 3;
   -o-animation-duration: 4s;
-  -o-animation-delay: 2s;
-  -o-animation-iteration-count: 3s;
-
-  -transition-animation-duration: 4s;
-  -transition-animation-delay: 2s;
-  -transition-animation-iteration-count: 3s;
-  
-  -webkit-transition: ;
-  -o-transition: ;
-  transition: ;
 }
 
 
@@ -533,7 +551,8 @@ body > footer > div > div > div.col-md-12.logo > img{
 
 #clic{
 
-	background-color: #ef4222;
+	background-image: url("../img/preguntas.jpg");
+	background-position: center center;
 	text-align: center;
 }
 

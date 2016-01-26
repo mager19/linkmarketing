@@ -16,9 +16,15 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/zozo.accordion.min.js"></script>
 
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
 </head>
 
+
+
 <body>
+
 <!-- inicio del header -->
 	<header id="ho">
 		<div class="container">
@@ -70,48 +76,96 @@
 </nav>
 <!-- final del nav -->
 
-<!-- inicio slide -->
-<section class="slide contenedor">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="col-md-4">
-					<div class="col-md-4 col-xs-2 ico animated bounce">
-						<img src="img/ico1.png" alt="ico1">
-					</div>
-					<div class="col-md-4 col-xs-2 ico tarda animated tada">
-						<img src="img/ico2.png" alt="ico2">
-					</div>
-					<div class="col-md-4 col-xs-2 ico animated bounce">
-						<img src="img/ico3.png" alt="ico3">
-					</div>
 
-					<div class="col-md-4 col-xs-2 ico tarda animated tada">
-						<img src="img/ico4.png" alt="ico4">
-					</div>
-					<div class="col-md-4 col-xs-2 ico animated bounce">
-						<img src="img/ico5.png" alt="ico5">
-					</div>
-					<div class="col-md-4 col-xs-2 ico tarda animated tada">
-						<img src="img/ico6.png" alt="ico6">
-					</div>
-					
+<!-- Slide -->
+<section class="slide">
+	<div class="owl-carousel">
+  		
+  		<div class="contenedor item1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-4">
+							<div class="col-md-4 col-xs-2 ico animated bounce">
+								<img src="img/ico1.png" alt="ico1">
+							</div>
+							<div class="col-md-4 col-xs-2  tarda animated tada">
+								<img src="img/ico2.png" alt="ico2">
+							</div>
+							<div class="col-md-4 col-xs-2 ico animated bounce">
+								<img src="img/ico3.png" alt="ico3">
+							</div>
 
-				</div>
+							<div class="col-md-4 col-xs-2  tarda animated tada">
+								<img src="img/ico4.png" alt="ico4">
+							</div>
+							<div class="col-md-4 col-xs-2 ico animated bounce">
+								<img src="img/ico5.png" alt="ico5">
+							</div>
+							<div class="col-md-4 col-xs-2  tarda animated tada">
+								<img src="img/ico6.png" alt="ico6">
+							</div>
+							
 
-				<div class="col-md-8 slideinfo">
-					<h3>Somos su aliado estratégico implementando tácticas de marketing digital: Social media,
-						analítica web, Google Adwords, entre otras; para conectarlo con su cliente objetivo. 
-					</h3>
-					<div class="button">
-						<a href="#">Conozca mas</a>
+						</div>
+
+						<div class="col-md-8 slideinfo">
+							<h3>Somos su aliado estratégico implementando tácticas de marketing digital: Social media,
+								analítica web, Google Adwords, entre otras; para conectarlo con su cliente objetivo. 
+							</h3>
+							<div class="button">
+								<a href="#">Conozca mas</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="contenedor item2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-4">
+							<div class="col-md-4 col-xs-2 ico animated bounce">
+								<img src="img/ico1.png" alt="ico1">
+							</div>
+							<div class="col-md-4 col-xs-2  tarda animated tada">
+								<img src="img/ico2.png" alt="ico2">
+							</div>
+							<div class="col-md-4 col-xs-2 ico animated bounce">
+								<img src="img/ico3.png" alt="ico3">
+							</div>
+
+							<div class="col-md-4 col-xs-2  tarda animated tada">
+								<img src="img/ico4.png" alt="ico4">
+							</div>
+							<div class="col-md-4 col-xs-2 ico animated bounce">
+								<img src="img/ico5.png" alt="ico5">
+							</div>
+							<div class="col-md-4 col-xs-2  tarda animated tada">
+								<img src="img/ico6.png" alt="ico6">
+							</div>
+							
+
+						</div>
+
+						<div class="col-md-8 slideinfo">
+							<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima porro consectetur aliquid odit impedit debitis corporis voluptate laudantium hic eligendi aspernatur iure, molestiae quidem accusantium vero quas dolor sapiente dicta! 
+							</h3>
+							<div class="button">
+								<a href="#">Conozca mas</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
 	</div>
 </section>
-<!-- final de slide -->
+<!-- End slide -->
 
 <!-- inicio newsletter -->
 <section class="newsletter">
@@ -288,7 +342,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 logo">
-					<img src="img/logo.png" alt="logo">	
+					<img src="img/logo2.png" alt="logo">	
 			</div>
 
 			<div class="col-md-12 footerlinks">
@@ -315,6 +369,7 @@
 <script src="js/bootstrap.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <script src="js/tinynav.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
 
 
 <script type="text/javascript">
@@ -323,14 +378,38 @@ $(document).on("scroll",function(){
         $("header").addClass("small");
 	    $("nav").addClass("small");
 	        $(".socialestop").css("display", "none");
-	        $(".slide").css("padding-top","15%");
-    } else{
-        $("header").removeClass("small").addClass("large");
-        $("nav").removeClass("small").addClass("large");
-       		$(".socialestop").css("display", "block");
-       		$(".slide").css("padding-top","20%");
-    }
+	         $(".slide").css("padding-top","10%");
+     } else{
+         $("header").removeClass("small").addClass("large");
+         $("nav").removeClass("small").addClass("large");
+        		$(".socialestop").css("display", "block");
+        		$(".slide").css("padding-top","15%");
+     }
 });
+
+$(document).ready(function(){
+  // Carrousel
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:5000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        	}
+   	 }
+	})
+
+
+});
+
 </script>
 
 
