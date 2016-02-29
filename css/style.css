@@ -673,6 +673,43 @@ nav.small {
 
 @media screen and (max-width: 768px) {
 
+
+nav {
+    top: 20%;
+}
+
+nav.small {
+    top: 5%;
+}
+
+
+nav ul li {
+ 
+    margin-top: -5px;
+}
+
+
+.slide {
+    padding-top: 30%;
+}
+
+.ico, .tarda{
+
+	display: none;
+}
+
+
+#suscribirse {
+    margin-top: 1.9em;
+}
+
+.comuniquemosnos {
+    border:none;
+
+}
+
+
+
 .newsletter{
 
 	text-align: center;
@@ -698,6 +735,7 @@ button {
 
 	text-align: center;
 }
+
 
 
 }
