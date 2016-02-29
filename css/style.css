@@ -587,6 +587,90 @@ body > footer > div > div > div.col-md-12.logo > img{
 
 
 
+@media screen and (max-width: 1366px) {
+
+nav {
+   
+   	 top: 32%;
+	
+	}
+
+.slide {
+    
+    padding-top: 21%;
+
+	}
+
+nav.small {
+    top: 9.5%;
+	}
+
+
+
+}
+
+
+
+@media screen and (max-width: 1280px) {
+
+nav {
+   
+   	 top: 36%;
+	
+	}
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+nav ul li {
+	
+	   margin-right: 1.3em;
+
+	}
+
+nav {
+   
+   	 top: 33%;
+	
+	}
+
+nav.small {
+    top: 8%;
+}
+
+.slideinfo h3 {
+    
+    font-size: 1.3em;
+    line-height: 1.1em;
+}
+
+
+.slide {
+    padding-top: 26%;
+}
+
+#suscribirse {
+   
+   margin-left: 3em;
+}
+
+.itemp {
+    
+    padding: 0 1.3em;
+}
+
+
+
+
+}
+
+
+
+
+
 @media screen and (max-width: 768px) {
 
 .newsletter{
@@ -658,4 +742,4 @@ button {
 }
 
 
-    }
+}

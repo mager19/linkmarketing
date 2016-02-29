@@ -460,12 +460,12 @@ $(document).on("scroll",function(){
         $("header").addClass("small");
 	    $("nav").addClass("small");
 	        $(".socialestop").css("display", "none");
-	         $(".slide").css("padding-top","10%");
+	         $(".slide").css("padding-top","10em");
      } else{
          $("header").removeClass("small").addClass("large");
          $("nav").removeClass("small").addClass("large");
         		$(".socialestop").css("display", "block");
-        		$(".slide").css("padding-top","15%");
+        		$(".slide").css("padding-top","15em");
      }
 });
 
@@ -474,7 +474,7 @@ $(document).ready(function(){
 	$('.owl-carousel').owlCarousel({
     loop:true,
     nav:false,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:5000,
     responsive:{
         0:{
