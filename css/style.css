@@ -213,12 +213,22 @@ nav ul li a:hover{
 
 .item1{
 
-	background-image: url("../img/slide.jpg");
+	background-image: url("../img/conectamos.jpg");
 }
 
 .item2{
 
-	background-image: url("../img/preguntas.jpg");
+	background-image: url("../img/aliado.jpg");
+}
+
+.item3{
+
+	background-image: url("../img/descarga.jpg");
+}
+
+.item4{
+
+	background-image: url("../img/junto.jpg");
 }
 
 .slide{
