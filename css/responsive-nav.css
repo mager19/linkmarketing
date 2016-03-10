@@ -36,7 +36,7 @@
   user-select: none;
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (max-width: 1025px) {
   .js .nav-collapse {
     position: relative;
   }
