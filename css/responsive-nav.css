@@ -54,3 +54,10 @@
 
 }
 
+@media screen and (min-width: 1025px) {
+
+   .nav-collapse{
+
+    display: none!important;
+  }
+}
