@@ -626,10 +626,7 @@ nav {
 
 @media screen and (max-width: 1024px) {
 
-#menudesktop{
 
-	display: none;
-}
 
 
 nav ul li {
@@ -679,7 +676,10 @@ nav.small {
 
 
 @media screen and (max-width: 768px) {
+#menudesktop{
 
+	display: none;
+}
 
 nav {
     top: 20%;
