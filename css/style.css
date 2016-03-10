@@ -4,7 +4,9 @@
 /*	Import styles
 /* ---------------------------------------------------------------------- */
 
-@import url("../css/normalize.css");
+@import url("../css/responsive-nav.css");
+@import url("../css/styles2.css");
+
 
 /* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
 @import url("../css/bootstrap/bootstrap.css");
@@ -582,7 +584,6 @@ body > footer > div > div > div.col-md-12.logo > img{
 
 
 
-
 /***********************  MEDIA QUERIES ******************************/
 
 
@@ -624,6 +625,12 @@ nav {
 
 
 @media screen and (max-width: 1024px) {
+
+#menudesktop{
+
+	display: none;
+}
+
 
 nav ul li {
 	
@@ -676,6 +683,7 @@ nav.small {
 
 nav {
     top: 20%;
+    
 }
 
 nav.small {
