@@ -683,7 +683,7 @@ nav.small {
     }
 
 nav {
-    top: 20%;
+    top: 27%;
     
 }
 
@@ -699,7 +699,7 @@ nav ul li {
 
 
 .slide {
-    padding-top: 30%;
+    padding-top: 38%;
 }
 
 .ico, .tarda{
@@ -732,12 +732,14 @@ nav ul li {
 
 .comuniquemosnos textarea {
    
-    width: 90%;
+    width: 80%;
 }
 
-button {
+.button a{
  
+    margin-left: 9%;
     width: 72%;
+   
 }
 
 .leftpre h3{
@@ -745,6 +747,27 @@ button {
 	text-align: center;
 }
 
+
+.newsletter h3 {
+    
+    font-size: 1.2em;
+ }
+
+.boletin h4 {
+  
+    font-size: 1em;
+ }
+
+.newsletter input {
+  
+  	margin-left: 3em;
+    padding: 0.3em 2em;
+ }
+
+ .slideinfo h3 {
+    
+    margin-top: 2em;
+}
 
 
 }
