@@ -316,6 +316,7 @@ nav ul li a:hover{
 	margin-top: 1.5em;	
 	padding: 0.3em 1em;
 	text-align: center;
+	width: 100%;
 }
 
 #suscribirse{
@@ -625,6 +626,12 @@ nav ul li {
     margin-right: 1.3em;
 }
 
+.newsletter input{
+
+	width: 105%
+}
+
+
 
 }
 
@@ -640,7 +647,7 @@ nav ul li {
     }
 
 nav {
-    top: 26%;
+    top: 25%;
     
 }
 
@@ -669,6 +676,11 @@ nav ul li {
     margin-top: 1.9em;
 }
 
+#suscribirse a{
+
+	margin-left: -4em;
+}
+
 .comuniquemosnos {
     border:none;
 
@@ -676,9 +688,12 @@ nav ul li {
 
 
 
-.newsletter{
-
-	text-align: center;
+.newsletter input {
+    
+    padding: 0.3em 2em;
+    text-align: center;
+    margin-left: 15%;
+    width: 70%;
 }
 
 
@@ -715,11 +730,7 @@ nav ul li {
     font-size: 1em;
  }
 
-.newsletter input {
-  
-  	margin-left: 3em;
-    padding: 0.3em 2em;
- }
+
 
  .slideinfo h3 {
     
@@ -780,6 +791,113 @@ nav ul li {
 .leftpre h3 {
     
     font-size: 2.5em;
+}
+
+.socialestop{
+
+	display: none;
+}
+
+.logo{
+
+	margin-left: 25%;
+	width: 50%;
+}
+
+#ho > nav {
+    
+    top:15%;
+}
+
+.mi-slide {
+    margin-top: 12em;
+
+  }
+
+body > section.mi-slide > div > div.owl-stage-outer > div > div.owl-item.active > div{
+
+	padding: 1em 0;
+}
+
+.slideinfo h3 {
+    
+    padding: 0 2em;
+
+}
+
+.button {
+    margin-left: 30%;
+    margin-bottom: 2em;
+    width: 50%;
+}
+
+.newsletter {
+   
+    margin-top: -6em;
+}
+
+.newsletter input {
+   
+    width: 150%;
+}
+
+#suscribirse a {
+    margin-left: 3em;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+	.mi-slide {
+    margin-top: 11em;
+}
+
+.slideinfo h3 {
+    padding: 0 1em;
+}
+
+#suscribirse a {
+    margin-left: 2em;
+}
+
+
+#btn-abajo > a{
+
+	margin-left: -2em!important;
+}
+
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+
+.mi-slide {
+    margin-top: 9.5em;
+}
+
+.slideinfo h3 {
+    padding: 0 0em;
+}
+
+.newsletter h3 {
+    
+    text-align: center;
+   }
+
+.newsletter input {
+    
+    margin-left: 1em;
+}
+
+#suscribirse a {
+    margin-left: 1em;
 }
 
 
